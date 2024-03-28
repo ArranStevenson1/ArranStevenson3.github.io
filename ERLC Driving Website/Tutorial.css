@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-size: 1.25rem;
+    background-color: #27354d;
+    color: white;
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    gap: 2rem;
+}
+
+nav {
+    max-height: 100sch;
+    background-color: #2f405c
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: grid;
+    gap: 2rem;
+    padding-block: 2rem;
+    font-size: 2rem;
+}
+
+.nav-list li {
+     padding: 1rem 2rem;
+     margin-left: 2rem;
+     border-radius: 100vw 0 0 100vw;
+}
+
+.nav-list li.active {
+    background: #27354d;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-family: Sans-serif;
+}
+
+.Main-Text {
+ font-size: 50px;
+ font-family: Sans-serif;
+ text-decoration: bold;
+ font-weight: 100;
+}
